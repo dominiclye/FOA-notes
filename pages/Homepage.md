@@ -12,4 +12,7 @@
 -
 - # Notes
 - [[C Programming Language]]
+- [[Binary]]
+- [[Memory]]
+- [[Hexadecimal]]
 -
