@@ -1,0 +1,6 @@
+- C is statically typed language, meaning that the code is compiled at runtime and therefore all variable types must be specified when declared
+- Memory is managed in the code as there is no garbage collector.
+	- Variables are stored at an address in the memory.
+	- Addresses can be stored in memory too, an address which points to another address is called a pointer.
+-
+-

@@ -1,0 +1,20 @@
+- Computer memory takes the form of BITS in a memory cell
+- Memory cells exist in a binary state
+- At a low level, all programs consist of binary code, which how each bit should be processed
+- Bits are processed in the CPU
+- **Memory Management and OS**
+	- The OS and the memory management unit in the CPU allocate memory addresses for variables and manage memory.
+	- When a program starts, the OS allocates a block of memory (address space) for the program. This address space includes segments for code, data, heap, and stack.
+- **Stack Allocation**
+	- Local variables are typically stored on the stack. The stack grows and shrinks as functions are called and return.
+	- Variables are stored at specific memory addresses based on the stack pointer, which keeps track of the stack head.
+- **Heap Allocation**
+	- In C, dynamic memory allocation is possible using *malloc*, *calloc*, *realloc*, and *free*.
+	- This memory allocation occurs on the heap
+	- The heap manager keeps track of free and used memory blocks, and controls the memory addresses for dynamic allocations.
+- **Address size**:
+	- On a 32-bit system, addresses are 32 bits long.
+	- On a 64-bit system, addresses are 64 bits long.
+	- Byte-addressable memory points to a byte of memory, which consists of 8 bits.
+-
+- Each memory address is represented as a hexadecimal
